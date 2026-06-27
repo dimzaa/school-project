@@ -49,7 +49,7 @@ export default function App() {
   const [activeTab, setActiveTab]             = useState('student');
   const [isAdminLoggedIn, setIsAdminLoggedIn] = useState(false);
   const [passwordInput, setPasswordInput]     = useState('');
-  const ADMIN_PASSWORD                        = "school2024";   // ← שנה סיסמה כאן!
+  const ADMIN_PASSWORD                        = "lareen15071992";   // ← שנה סיסמה כאן!
 
   // ── Load all students from DB on first render ──────────────────────────────
   useEffect(() => { loadFromDB(); }, []);
